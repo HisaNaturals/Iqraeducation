@@ -1,0 +1,31 @@
+.hand-writing img{
+   width: 70%;
+   margin-top: 3rem;
+}
+@media (max-width:1000px){
+   .hand-writing img{
+   width: 80%;
+   margin-top: 3rem;
+}
+}
+.hand-writing{
+   width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.hand-writing h2{
+   font-size: 2rem;
+   color: purple;
+}
+
+.hand-writing p{
+   width: 80%;
+   
+}
+.hand-writing li{
+   list-style-type:square;
+   align-items: left;
+   width: 80%;
+}

@@ -1,0 +1,31 @@
+.drawing img{
+   width: 70%;
+   margin-top: 3rem;
+}
+@media (max-width:800px){
+   .drawing img{
+   width: 80%;
+   margin-top: 3rem;
+}
+}
+.drawing{
+   width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.drawing h2{
+   font-size: 2rem;
+   color: purple;
+}
+
+.drawing p{
+   width: 80%;
+   
+}
+.drawing li{
+   list-style-type:square;
+   align-items: left;
+   width: 80%;
+}
